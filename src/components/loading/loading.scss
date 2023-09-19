@@ -1,0 +1,37 @@
+.v-loading {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: 99997;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.3);
+
+  animation-name: loading;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-in-out;
+
+  .v-loading-box {
+    width: 100px;
+    height: 100px;
+    border-radius: 12px;
+    background-color: white;
+  }
+
+  .v-loading-text {
+
+  }
+  .v-loading-icon {
+  }
+}
+@keyframes loading {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

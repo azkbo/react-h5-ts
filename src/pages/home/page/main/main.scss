@@ -1,0 +1,36 @@
+.main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.main-tab-page {
+  display: flex;
+  flex-direction: column;
+}
+.main-tab-layout {
+  height: 48px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+
+  text-align: center;
+}
+.main-tab-view {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  color: #767676;
+  font-size: 13px;
+}
+.main-tab-view2 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  color: #232323;
+  font-size: 14px;
+  font-weight: 500;
+}

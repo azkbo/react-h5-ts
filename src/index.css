@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'PingFang SC';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+.flex {
+  flex: 1;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.center {
+  align-items: center;
+  justify-content: center;
+}
+
+.ai-center {
+  align-items: center;
+}
+
+.jc-center {
+  justify-content: center;
+}
+
+.ellip {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.opacity {
+  opacity: 0.6;
+}
